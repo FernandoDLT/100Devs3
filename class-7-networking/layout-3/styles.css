@@ -9,7 +9,7 @@
 }
   
 section {
-    height: 500px;
+    height: 300px;
     width: 20%;
     float: left;
     border: 1px solid black;
@@ -33,3 +33,21 @@ section {
 main, .bottom {
     display: flex;
 } */
+
+/* Media */
+
+@media screen and (max-width: 600px){
+    section {
+        background: green;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+    section {
+        background: blue;
+        width: 33.3333%;
+    }
+    .thickOne {
+        display: none;
+    }
+}
