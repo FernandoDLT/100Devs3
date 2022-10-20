@@ -1,0 +1,17 @@
+
+* {
+    box-sizing: border-box;
+}
+
+nav,main,aside {
+    float: left;
+    width: 10%;
+}
+
+main {
+    width: 50%;
+}
+
+aside {
+    width: 40%;
+}
