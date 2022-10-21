@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+
+}
+
+section {
+    height: 300px;
+    width: 33.33333%;
+    border: 2px solid black;
+    float: left;
+}
+
+.bottom {
+    width: 50%;
+}
+
+/* header, footer {
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+}
+
+section {
+    width: 33.33333%;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    flex: 1;
+}
+
+main, .bottom {
+    display: flex;
+    width: 50%;
+} */
+
+@media screen and (max-width: 850px){
+    section {
+        background: green;
+    }
+    .bottom {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    section {
+        background: red;
+    }
+}
